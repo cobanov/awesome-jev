@@ -35,6 +35,7 @@ This list favors public source code, concrete Jev usage, clear limitations, and 
 
 ## Recent developments
 
+- **September 18: RotaEngine Integration** Jev 1.13 was listed on September 18. This marks a provider integration rather than a new upstream model release, demonstrating an ultra-low gateway proxy latency of 17 ms (303 ms upstream provider, 134 ms partner guardrails, 31 ms built-in guardrails; 485 ms end-to-end). https://rotaengine.ai
 - **September 18: Python SDK 0.7.0.** [Release notes](https://github.com/typesafe-ai/typesafe-sdk-python/releases/tag/v0.7.0) document a breaking serialization change from `msgspec` to Pydantic, a new `response_model` argument, and corrected serialization of `str` subclasses.
 - **September 18: OpenRouter listing.** [Jev 1.13](https://openrouter.ai/typesafe/jev-1.13) is listed with a September 18 date. This is a provider listing date, not evidence of a separate new upstream model revision.
 - **September 16: Vercel AI Gateway integration.** The [announcement](https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway) introduces typed evaluation via AI SDK's experimental `evaluate` API.
