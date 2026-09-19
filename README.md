@@ -71,6 +71,7 @@ Community-maintained clients and tools; official TypeSafe SDKs are listed above.
 - [jev-mcp](https://github.com/blakestone-x/jev-mcp) - MCP server exposing classify, score, check, match, and screen tools.
 - [jev-mcp](https://github.com/BYK/jev-mcp) - An eval-first MCP server for Jev, that returns typed judgments (noul, choice, score) with probabilities instead of generated text.
 - [jev-shell-history](https://github.com/mrnugget/jev-shell-history) - Ranks existing zsh history entries for inline completion; accepting a suggestion does not execute it.
+- [jev.nvim](https://github.com/valentynkit/jev.nvim) - Neovim plugin that splits the buffer into functions with Treesitter, scores each against a plain-language question with Jev, and ranks answers by probability in the quickfix window.
 - [Jevbridge](https://github.com/gamesonrblx/Jevbridge) - ACP/MCP adapter for using Jev alongside coding and chat models.
 - [jevclient](https://github.com/AboveColin/jevclient) - Async Python client for typed Jev questions and probabilities.
 - [jevr](https://github.com/simxnherrera/jevr) - Native R client for typed questions and provider-independent answers through TypeSafe or OpenRouter.
@@ -92,7 +93,9 @@ Source-reviewed experiments and integrations. A model judgment does not establis
 - [commit-miner](https://github.com/devanshbatham/commit-miner) - Classifies Git diffs and commit messages into change types and candidate security-fix/CWE labels for inspection.
 - [foreman](https://github.com/thruwire/foreman) - Software-factory supervisor that uses Jev to keep coding agents on task.
 - [is-malicious](https://github.com/luantak/is-malicious) - Scans source, configuration, build, and CI files with Jev, then reports suspicious behavior and implicated lines before the code is run.
+- [jev-belay](https://github.com/valentynkit/jev-belay) - Claude Code Stop hook that checks the transcript for evidence before trusting a "done" claim, spending one four-question Jev call only when files changed with no passing check since, and failing open on every error path.
 - [jev-codex-router](https://github.com/0xNatoshi/jev-codex-router) - Per-turn Codex model, reasoning, and speed-mode routing.
+- [jev-commit](https://github.com/valentynkit/jev-commit) - Pre-commit hook where one Jev call judges whether the commit message matches the staged diff, flags debug leftovers and unmentioned work, and blocks only when it detects a credential.
 - [jev-guard](https://github.com/leepokai/jev-guard) - Cross-agent tool-call risk scoring with allow, ask, and deny outcomes.
 - [jev-pref](https://github.com/doeixd/jev-pref) - Linter that has Jev check code changes against project preferences from `jev-pref.json` and feeds findings back to coding agents.
 - [jev-review](https://github.com/devagrawal09/jev-review) - Staged code-review workflow with a local dashboard.
@@ -157,6 +160,7 @@ These projects can operate real browsers or devices when enabled. Published demo
 - [heist-one](https://github.com/AbdelStark/heist-one) - Browser stealth game where Jev judges guards while deterministic code owns the world.
 - [jev-drone](https://github.com/RomanSlack/jev-drone) - Simulated MuJoCo quadrotor with Jev making slower tactical judgments from processed camera observations; deterministic code controls flight.
 - [jev-experiments](https://github.com/dabit3/jev-experiments) - Collection of inspectable Jev demos, including scripted support conversations with typed intent, escalation, and suggested-response decisions.
+- [jev-plays-pokemon-red](https://github.com/valentynkit/jev-plays-pokemon-red) - Real-time game control on PyBoy: deterministic code owns the route and arithmetic while Jev picks only at branches, and each battle turn's faint prediction is scored by Brier against RAM state.
 - [JevPilot](https://github.com/standardagents/jevpilot) - Three.js driving simulation where Jev chooses among candidate paths and speeds while local code handles vehicle dynamics and geometry.
 - [JevScape](https://github.com/Skyvern-AI/jevscape) - RuneBench-based RuneScape harness that maps Jev choices to a bounded game-action catalog and records tick-level results.
 - [killmyidea](https://github.com/monteduro/killmyidea) - Startup-idea evaluator that chooses kill, fix, or ship.
@@ -166,6 +170,7 @@ These projects can operate real browsers or devices when enabled. Published demo
 
 ## Media and creative tools
 
+- [jev-skip](https://github.com/valentynkit/jev-skip) - Browser extension that reads the YouTube caption track and paints a per-segment sponsor probability on the seek bar before the intro ends, with no crowd database, reporting catching 77% of SponsorBlock's sponsor seconds across 23 videos at $0.0008 a video.
 - [jevmeter](https://github.com/ChetasLua/jevmeter) - Scores every sentence in a video and renders the result as an overlay.
 - [Jevthoven](https://github.com/cocktailpeanut/jevthoven) - Symbolic-music studio where Jev chooses plans, instruments, and bar patterns, and code renders editable music and MIDI.
 - [SlidePilot](https://github.com/harshil1712/slidepilot) - Experimental Slidev controller that judges speech transcripts for slide completion, with deterministic checks and manual navigation.
