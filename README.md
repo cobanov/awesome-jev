@@ -95,6 +95,7 @@ Source-reviewed experiments and integrations. A model judgment does not establis
 - [jev-review](https://github.com/devagrawal09/jev-review) - Staged code-review workflow with a local dashboard.
 - [jev-review MCP plugin](https://github.com/NiazMorshed2007/jev-review) - Local-first continuous software-quality review for coding agents.
 - [jev-router](https://github.com/gargpratyush/jev-router) - Chooses a model for each fresh Claude Code or Codex turn while wrapping the existing CLI.
+- [jev-use](https://github.com/shitianfang/jev-use) - Claude Code / Codex / pi plugin where Jev answers batched noul, choice, and score questions and risk-checks tool calls, while a typed escalation contract hands writing and unsure steps back to the LLM.
 - [jevwire](https://github.com/Brainwires/jevwire) - MCP tools, an embeddable decision library, and advisory or restrictive Claude Code hooks; judgments do not grant native permissions.
 - [opencode-jev-orchestrator](https://github.com/aaronshaf/opencode-jev-orchestrator) - Keeps an OpenCode parent model fixed and uses Jev difficulty judgments to delegate harder turns to temporary subagents.
 - [perch](https://github.com/lakeday-org/perch) - Semantic code linter that evaluates code units against configurable Jev questions.
