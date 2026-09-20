@@ -270,6 +270,7 @@ Results belong to each project's dataset, prompts, model version, and measuremen
 - [jev-search-rerank-eval](https://github.com/zhuyansen/jev-search-rerank-eval) - Chinese/English retrieval evaluation comparing Jev reranking with lexical, embedding, and fusion baselines, including judge-circularity analysis.
 - [jevcal](https://github.com/abhixhek/jevcal) - Fits and drift-checks confidence thresholds against labeled data.
 - [Jev Capability Atlas](https://github.com/Zaious/jev-capability-atlas) - Bilingual evidence map with recorded API runs and reusable suites that separates its own tests, third-party benchmarks, and editorial synthesis.
+- [Nautilus Assay](https://github.com/chunxiaoxx/nautilus-compass) - Independent verification service for calibration claims of Jev-style decision models: recomputes Brier/ECE from per-sample predictions and issues signed three-state ed25519 receipts; includes a full independent replay of the NanoJev calibration benchmark (15 metrics, max deviation 1.99e-08).
 - [typesafe-ai-benchmark](https://github.com/iammrduncan/typesafe-ai-benchmark) - LLM gateway that mimics the System One output shape for comparison work.
 
 ## Guides and cookbooks
