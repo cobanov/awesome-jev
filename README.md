@@ -140,6 +140,7 @@ Source-reviewed experiments and integrations. A model judgment does not establis
 - [Canny](https://github.com/qkal/Canny) - Evidence ledger that challenges unsupported "done" claims from coding agents.
 - [Codex Jev Router](https://github.com/suenot/codex-jev-router) - Uses Jev Choice and Noul decisions to select a Codex subagent model and reasoning effort; uncertain decisions fall back to Sol.
 - [commit-miner](https://github.com/devanshbatham/commit-miner) - Classifies Git diffs and commit messages into change types and candidate security-fix/CWE labels for inspection.
+- [Edward](https://github.com/VeridicalTech/Edward) - External control plane for coding agents: one batched Jev call judges the whole cross-turn trajectory (continue, pause, or escalate, confidence-gated), while deterministic code owns dangerous-command blocking, budget caps, intervention execution, and an Ed25519-signed receipt chain.
 - [foreman](https://github.com/thruwire/foreman) - Software-factory supervisor that uses Jev to keep coding agents on task.
 - [is-malicious](https://github.com/luantak/is-malicious) - Scans source, configuration, build, and CI files with Jev, then reports suspicious behavior and implicated lines before the code is run.
 - [jev-agent-skill](https://github.com/yuyang2230/jev-agent-skill) - Claude Code/ZCode skill that offloads classify, screen, score, and compliance-check judgments to Jev via OpenCode Zen's free tier; ships a retry-hardened zero-dependency caller and a shop comment-triage pipeline.
