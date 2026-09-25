@@ -101,7 +101,7 @@ Community-maintained clients and tools; official TypeSafe SDKs are listed above.
 
 - [advocaat](https://github.com/pithings/advocaat) - Small type-safe client for asking Jev questions about datasets.
 - [discern](https://github.com/doeixd/discern) - TypeScript library for Effect: Jev's Choice, Noul, and Score answers become typed patterns with an explicit `Uncertain` branch, and procedure routing, with recording, replay, caching, and call budgets as `DecisionModel` middleware.
-- [hunch](https://github.com/carldaws/hunch) - Probabilistic control flow for Ruby: `if Hunch.likely?("fraudulent", given: order)` branches on a typed Jev answer, with graded predicates from `possibly?` to `definitely?`.
+- [hunch](https://github.com/carldaws/hunch) - Probabilistic control flow for Ruby: `if Hunch.likely?("fraudulent", given: order)` branches on a typed Jev answer, with graded predicates from `possibly?` to `almost_certainly?`; a [TypeScript port](https://github.com/carldaws/hunch-ts) offers the same interface.
 - [jeff](https://github.com/saembit/jeff-cli) - Go CLI where Jev scores each item on each weighted dimension of a YAML spec in one request and code sums the weights into a ranking, with noul, choice and score commands whose thresholds become exit codes for shell and CI.
 - [jegrep](https://github.com/can1357/jegrep) - Rust semantic grep that scores live repository files and ranges with Jev probabilities, without an embedding index or background daemon.
 - [jev](https://github.com/dannote/jev) - Elixir/OTP client designed around GenServer replies and pattern matching.
