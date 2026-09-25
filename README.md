@@ -241,6 +241,7 @@ These projects can operate real browsers or devices when enabled. Published demo
 
 ## Games, robotics, and interactive demos
 
+- [Chess with Jev](https://chriswijnia.com/experiments/chess) - Jev chooses one move per turn from the legal moves, each described with facts worked out in code (exchanges, mates, threats); the page plays it and draws Jev's candidates as arrows ([source](https://github.com/cwdx/chess-with-jev)).
 - [Embodied Jev](https://github.com/FBddcz/embodied-jev) - MuJoCo Franka Panda workbench where Jev can choose from bounded simulator actions over structured observations; deterministic code owns physics and safety checks, and the published Jev comparison is still pending.
 - [heist-one](https://github.com/AbdelStark/heist-one) - Browser stealth game where Jev judges guards while deterministic code owns the world.
 - [jev-canvas](https://github.com/gaborishka/jev-canvas) - Voice and finger-pointing control of a tldraw canvas: Jev picks the action, target shape and place from each partial transcript plus the fingertip position; deterministic code applies thresholds and executes the edit.
