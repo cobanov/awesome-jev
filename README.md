@@ -306,6 +306,7 @@ These projects explore Jev-like interfaces or open implementations. They are ind
 - [ruling](https://github.com/bradAGI/ruling) - Reproduction that serves Jev's `/v1/systemone` schema from a frozen MLX model or OpenAI-compatible endpoint by reading option probabilities from the logits, with option-order averaging, temperature calibration, and a harness that replays Jev's published answers on public judgments.
 - [SemIf](https://github.com/TheoLeeCJ/SemIf) - Formerly OpenJev: an independent study of typed option readout from frozen open models, with shared-prefix experiments and a WebGPU demo.
 - [Simple Jev](https://github.com/featherless-ai/simple-jev) - Transforms compatible open-model logits into typed decisions without a separately trained classifier head; model compatibility is constrained.
+- [sokudan](https://github.com/hiroki-abe-58/sokudan) - Apache-2.0 Japanese decision model on a ModernBERT-ja backbone (314.6M parameters) that returns typed choice, score and bool distributions in one forward pass with no generated text; on its own synthetic 300-item `bench_ja` (CC BY 4.0, evaluation only) it reports 3-seed means of 0.847 choice accuracy, 0.090 score RPS and 0.789 bool AUROC, states that bool under-predicts true and that the published seed-0 weights score lower on score (accuracy 0.663), and does not call or measure Jev.
 
 ## Evaluation and calibration
 
