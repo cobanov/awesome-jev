@@ -112,7 +112,7 @@ Community-maintained clients and tools; official TypeSafe SDKs are listed above.
 - [jev-mcp](https://github.com/blakestone-x/jev-mcp) - MCP server exposing classify, score, check, match, and screen tools.
 - [jev-mcp](https://github.com/BYK/jev-mcp) - An eval-first MCP server for Jev, that returns typed judgments (noul, choice, score) with probabilities instead of generated text.
 - [jev-shell-history](https://github.com/mrnugget/jev-shell-history) - Ranks existing zsh history entries for inline completion; accepting a suggestion does not execute it.
-- [Jev-Switch](https://github.com/ARCJ137442/jev-switch) - Unofficial Rust gateway for typed Jev `/v1/systemone` decisions: it forwards requests to configured Vercel or Laya models and returns the Jev result to the caller, while user-defined routes choose the upstream; a React/Tauri console manages providers and routes.
+- [Jev-Switch](https://github.com/ARCJ137442/jev-switch) - Unofficial Rust gateway for caller-defined Jev Choice, Score, and Noul requests: it forwards each `/v1/systemone` request to a Vercel or Laya model selected by user-configured routes and returns the typed result; a React/Tauri console manages providers and routes.
 - [jev.nvim](https://github.com/valentynkit/jev.nvim) - Neovim plugin that splits the buffer into functions with Treesitter, scores each against a plain-language question with Jev, and ranks answers by probability in the quickfix window.
 - [Jevbridge](https://github.com/gamesonrblx/Jevbridge) - ACP/MCP adapter for using Jev alongside coding and chat models.
 - [jevclient](https://github.com/AboveColin/jevclient) - Async Python client for typed Jev questions and probabilities.
