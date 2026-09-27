@@ -13,7 +13,7 @@
 
 Jev takes program state plus typed questions and returns constrained answers with probabilities. It is designed for software decisions such as classification, routing, scoring, ranking, verification, and guardrails, rather than free-form text generation.
 
-This list favors public source code, concrete Jev usage, clear limitations, and reproducible evidence. The latest review added **20 source-reviewed integrations, projects, and studies**, bringing the community catalog to **155**, alongside official resources, provider integrations, and related lists. See the [September 20 research notes](research/2026-09-20.md) for pinned source evidence and review boundaries. Review completed September 20, 2026 (Europe/Istanbul); upstream event dates below are UTC.
+This list favors public source code, concrete Jev usage, clear limitations, and reproducible evidence. The latest review added **20 source-reviewed integrations, projects, and studies**, bringing the community catalog to **155**; with the PowerShell module added below, it now lists **156** community projects, alongside official resources, provider integrations, and related lists. See the [September 20 research notes](research/2026-09-20.md) for pinned source evidence and review boundaries. Review completed September 20, 2026 (Europe/Istanbul); upstream event dates below are UTC.
 
 ## Contents
 
@@ -106,6 +106,7 @@ Community-maintained clients and tools; official TypeSafe SDKs are listed above.
 - [jeff](https://github.com/saembit/jeff-cli) - Go CLI where Jev scores each item on each weighted dimension of a YAML spec in one request and code sums the weights into a ranking, with noul, choice and score commands whose thresholds become exit codes for shell and CI.
 - [jegrep](https://github.com/can1357/jegrep) - Rust semantic grep that scores live repository files and ranges with Jev probabilities, without an embedding index or background daemon.
 - [jev](https://github.com/dannote/jev) - Elixir/OTP client designed around GenServer replies and pattern matching.
+- [Jev PowerShell module](https://github.com/dfinke/Jev) - PowerShell helpers for Jev Noul, Choice, and Score questions; `Invoke-Jev` returns typed answers alongside the input state so scripts can apply their own thresholds and routing.
 - [jev-acp](https://github.com/formulahendry/jev-acp) - Standalone ACP agent exposing Jev Choice, Score, and Noul decisions through guided input and reusable templates, with typed results and probabilities.
 - [jev-axi](https://github.com/shiftynick/jev-axi) - CLI for picking, rating, checking, ranking, triaging, and guarding from the shell.
 - [jev-dsl](https://github.com/inanna-malick/jev-dsl) - Early-alpha Haskell DSL that encodes typed question packets and decodes answers; HTTP transport is left to the caller.
