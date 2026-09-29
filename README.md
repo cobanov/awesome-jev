@@ -278,7 +278,9 @@ These projects can operate real browsers or devices when enabled. Published demo
 
 ## Open reproductions and research
 
-These projects explore Jev-like interfaces or open implementations. They are independent efforts, not official TypeSafe releases or verified reproductions of its proprietary architecture, RLCD training, or calibration.
+The ecosystem survey below maps public Jev applications. The implementation projects that follow explore Jev-like interfaces or open implementations. They are independent efforts, not official TypeSafe releases or verified reproductions of its proprietary architecture, RLCD training, or calibration.
+
+- [Jev in the Wild](https://arxiv.org/abs/2609.30216) - Data-driven survey of 2,170 public Jev projects that analyzes early growth, application domains, and the choice, judgment, and scoring decisions Jev supports.
 
 - [AnyJev](https://github.com/MorrisZJ/AnyJev) - Library that turns any open transformers or vLLM model into a Jev-style Choice/Score/Noul decision from one prefill with no training, using cyclic-shift marginalization and a label-free prior estimate to reduce option-order sensitivity; every result is labeled raw, L0 or L1 by the debiasing and calibration it carries, and the committed bench reports order-flip rate, Brier and ECE on its own task set.
 - [Diffusion Jev](https://github.com/Hangzhi/diffusion-jev-sglang) - Independent DiffusionGemma/SGLang implementation of Choice, Score and Noul for text and images, with a doodle-classification playground and public evaluation artifacts; option scores come from self-conditioned denoising logits and are not calibrated correctness probabilities.
