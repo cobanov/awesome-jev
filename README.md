@@ -209,6 +209,7 @@ These projects can operate real browsers or devices when enabled. Published demo
 - [jev-voice-browser](https://github.com/moritzkremb/jev-voice-browser) - Maps partial speech transcripts to browser intents and observed targets, with code deciding whether to act, wait, or ask.
 - [Jev for Chrome](https://github.com/chy4pro/jev-for-chrome) - Unofficial Chrome extension (Manifest V3) port of Jev Ultrafast: Jev picks the operation and DOM element in one request, a small text model writes typed values, and it runs in the user's own tabs through OpenRouter, TypeSafe or Cloudflare; includes a 17-task headless-Chromium suite with recorded traces.
 - [mobile-jev](https://github.com/droidrun/mobile-jev) - Android agent using Mobilerun observations and bounded Jev actions; execute mode controls a real device, while the published Uber demo stops before booking.
+- [Sedum](https://github.com/sedum-dev/sedum) - In goal mode Jev picks each next browser action and its target; in authored plain-English test steps it picks the element each step refers to, and for verify claims whether they hold or are contradicted; Playwright performs the action, and code turns the probabilities into a pass, a low-confidence pass or a fail.
 - [typesafe-computer-use](https://github.com/awlevin/typesafe-computer-use) - macOS computer-use experiment using OCR plus bounded Jev action selection.
 
 ## Routing, data, and workflows
