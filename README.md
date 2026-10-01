@@ -379,6 +379,7 @@ Results belong to each project's dataset, prompts, model version, and measuremen
 
 ## Related lists
 
+- [awesome-jev-prompts](https://github.com/vicfei/awesome-jev-prompts) - 43 field-tested Jev question patterns (Choice/Score/Noul) with templates, thresholds, and failure modes, plus 10 anti-patterns. CC0, bilingual EN/中文.
 - [awesome-jev-by-typesafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) - Evidence-backed use cases, patterns, prompts, and starter code.
 - [awesome-jev](https://github.com/hellogumbo/awesome-jev) - Large community directory with a searchable companion site.
 - [yibie/awesome-jev](https://github.com/yibie/awesome-jev) - High-signal field guide organized by decision domain.
