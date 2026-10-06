@@ -117,6 +117,7 @@ Community-maintained clients and tools; official TypeSafe SDKs are listed above.
 - [jev.nvim](https://github.com/valentynkit/jev.nvim) - Neovim plugin that splits the buffer into functions with Treesitter, scores each against a plain-language question with Jev, and ranks answers by probability in the quickfix window.
 - [Jevbridge](https://github.com/gamesonrblx/Jevbridge) - ACP/MCP adapter for using Jev alongside coding and chat models.
 - [jevclient](https://github.com/AboveColin/jevclient) - Async Python client for typed Jev questions and probabilities.
+- [jevdedup](https://github.com/Ruivalim/jevdedup) - Bun CLI that groups duplicate files by size and hash, then has Jev confirm each group (true duplicate, mislabeled, or unsure) and pick which copy to keep; output is a report only, nothing is deleted.
 - [jevgrep (allebee)](https://github.com/allebee/jevgrep) - Jev decides, one Noul per line, whether each line of a log or other text stream satisfies a plain-English question; code applies the threshold and prints the matches grep-style, including from `tail -f`.
 - [jevr](https://github.com/simxnherrera/jevr) - Native R client for typed questions and provider-independent answers through TypeSafe or OpenRouter.
 - [jgrep (kyu1204)](https://github.com/kyu1204/jgrep) - Semantic grep for code, git diffs and CSV rows: one Noul per 5-60 line chunk, 16 chunks per Jev request, grep-style file:line output and exit codes for CI lint rules written in English; ships an interactive init and a Claude Code / Codex skill.
