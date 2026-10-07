@@ -193,6 +193,7 @@ These tools select what reaches a model. Preserving retained text verbatim does 
 
 - [fast-dev-compaction](https://github.com/leonaaardob/fast-dev-compaction) - Codex port that restores Jev-selected verbatim history around native session compaction.
 - [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) - Claude Code plugin and library that score tool-call/result pairs for deletion or truncation while retaining selected text verbatim.
+- [lossless-compaction](https://github.com/yottayoshida/lossless-compaction) - Claude Code plugin that moves old tool results to local files instead of summarizing them, and asks Jev a choice over what was moved out when its `find` tool is given a question in words; the compaction itself calls no model.
 - [pi-fast-jev-compaction](https://github.com/joelhooks/pi-fast-jev-compaction) - Pi extension that prunes stale tool history and leaves summary compaction to Pi when pruning is insufficient.
 - [pi-jev-compact](https://github.com/ilkerulusoy/pi-jev-compact) - Selective, verbatim context compaction for Pi using Jev model.
 - [pi-jev-context](https://github.com/kevinpita/pi-jev-context) - Opt-in Pi extension that filters older messages from model requests while preserving the original session history.
