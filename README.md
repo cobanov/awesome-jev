@@ -134,6 +134,7 @@ Community-maintained clients and tools; official TypeSafe SDKs are listed above.
 - [typesafe-mcp](https://github.com/itsmostafa/typesafe-mcp) - MCP connector that gives agents access to Jev decisions.
 - [typesafe-sdk-java](https://github.com/Premo-Cloud/typesafe-sdk-java) - Community Java 17 client for Choice, Score, and Noul, with an optional Spring Boot starter.
 - [zod-jev](https://github.com/jomatsu/zod-jev) - Pairs local Zod shape validation with Jev semantic validation.
+- [pydecide](https://github.com/gopaljigaur/decide) - Python client that sends one typed Choice, Score or Noul request to hosted Jev, OpenRouter, OpenAI's Decisions API, laya and laya-mlx, or a sentence-transformers reranker, where code owns the backend order and the per-question-type confidence thresholds that decide when an answer is escalated to the next backend, and every response records which backend answered; ships a drop-in for TypeSafe's own client and a `/v1/systemone` server their SDK talks to unchanged.
 
 ## Agents, coding, and guardrails
 
